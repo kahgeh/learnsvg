@@ -1,0 +1,59 @@
+.drawer-container{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex: 1 1 10em;
+    padding: 1em 1em 1em 1em;
+}
+
+.drawer-item{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    border: 0.5px solid lightgray;
+    height: 2em;
+}
+
+.drawer-item:hover {
+    border-radius: 1em;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 5 1 60em;
+    background-color: rgb(27, 26, 26);
+    opacity: 0.8;
+}
+
+.content-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    flex: 0 0 3em;
+    padding: 0.5em;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 30em;
+    background-color: white;
+}
+
+.content{
+    align-self: center;
+}
+
+.svg{
+    transform-origin: 0 0;
+}

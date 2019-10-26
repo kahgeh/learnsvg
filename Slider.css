@@ -1,0 +1,27 @@
+.pointer {
+    fill:"white";
+    stroke:"gray";
+    stroke-width:"0.1";
+}
+
+.draggable-group {
+    cursor: grab;
+}
+
+.slide-guide {
+    stroke:lightgray;
+    stroke-width: 0.5em;
+}
+
+.handle-border{
+    fill: darkgray;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    stroke-width: 0;
+}
+
+.handle{
+    fill: white;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    stroke-width: 0;
+}
+
